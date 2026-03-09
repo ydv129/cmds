@@ -7,6 +7,7 @@ Using R with the `party` package for decision tree classification:
 ```r
 install.packages("party")   # select 0-cloud
 library("party")
+data(readingSkills)
 
 input.dat <- readingSkills[c(1:105)]
 png(file="decision_tree.png")
