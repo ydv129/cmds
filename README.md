@@ -1,12 +1,15 @@
 # Practical 1: Creating and Managing Vector Data: Adding vector layers, setting properties, formatting, calculating line lengths and statistics
 
 ## Part 1
+```
 1. Layer-create layer - new shape file layer - select point - Add name - click add attribute to list - OK
 2. Give your File name-Save
 3. On left side-select to Toggle Editing-Select Add features - click anywhere in the screen-Give ID - Click OK
 4. For Line and Polygon repeat the steps and select line and polygon in step 1
+```
 
 ## Part 2
+```
 1. Layer → Add Layer → Add Vector Layer
 2. From Practical 1(D) folder open → "IND_adm0.shp"
 3. Layer → Add Layer → Add Vector Layer
@@ -18,10 +21,12 @@
 9. Vector → Analysis Tools → Basic Statistics
 10. In the Input vector layer → select IND_rails
 11. In the Target field → select Track_len2 and Run and Close and values will be seen
+```
 
 # Practical 3: Exploring and Managing Raster data: Adding raster layers, raster styling and analysis, raster mosaicking and clipping.
 
 ## Part 1:
+```
 1. Layer → Add Layer → Add Raster Layer From Practical 2(A) folder open → "glds90g60.asc"
 2. From Layers in the left → Right click on the "glds90g60" → Click on Properties
 3. In Properties Change Render type to "Singleband pseudocolor" Change Mode to "Equal Interval" Change the color Then click on "classify" and then ok
@@ -32,18 +37,22 @@
 8. In Raster Calculator From the Raster Bands → Select "glds00g60@1" (By double clicking on it) From the operators, select the "-" operator Then the "glds90g60@1" from the Raster Bands In the Result Layer, Click on the 3 dots of the output layer Create a file named "Diff" in the "Practical 2 folder → Click on the "Save" and ok
 9. Then from the layers go to the properties of "Diff" file
 10. Repeat step 5, click on classify and ok
+```
 
 ## Part 2
+```
 1. Layer → Add Layer → Add Raster Layer From Practical 2(C) folder → open "India" folder, select the "4 images"
 2. Raster → Miscellaneous → Merge
 3. In the output file → Create a file named "merged" in the "Practical 2" folder and "Save"
 4. In the input files → Select all the "4 images" which were selected previously from the "India" folder
 5. Layer → Add Layer → Add Vector Layer From "IND_adm0.shp" file and open
 6. Raster → Extraction → Clipper In the Input file → Select the "merged" file created previously In the output file → Create a file named "Clip" and Save Change the clipping mode to "Mask Layer" and ok and then close
+```
 
 # Practical 4: Making a Map, Working with Attributes, Importing Spreadsheets or CSV files Using Plugins, Searching and Downloading OpenStreetMap Data
 
 ## Part 1: India Map
+```
 1.Layer- add vector-select image (adm0_shp)
 2. Project-new print composer-give name
 3.New interface is opened
@@ -57,8 +66,10 @@
 11.layout-add attribute /table - select and drag
 12.Left side select shapes and select and drag-go to item-search directories-change color
 13.Composer-Export as Image-Give Name -save
+```
 
 ## Part 2- Mumbai Map
+```
 1. Layer-add- Raster-Select Image-(mumbai-map.jpg)
 2. Project-new print composer-give name
 3. New interface is opened
@@ -72,17 +83,21 @@
 11. Layout-add attribute /table - select and drag
 12. Left side select shapes and select and drag-go to item-search directories-change color
 13. Composer-Export as Image-Give Name -save
+```
 
 ## Part 3: Sample File
+```
 1. Select layer-Add layer-Add delimited text layer
 2. File Name-Select sample.xls
 3. Select custom delimiters-Select all the checkboxes
 4. In geometry definition -x field - (select LATITUDE) -y field- (select LONGITUDE)
 5. Click OK - Close - Cancel
+```
 
 # Practical 5: Working with attributes, terrain Data
 
 ## Part 1:
+```
 1. Open New Project
 2. Click on Layer → New Layer → Add Vector Layer
 3. Browse "Practical 4" dataset → Select the zip file “ne_10m_populated_places_simple” and click "open"
@@ -90,8 +105,10 @@
 5. From above tools → Click on "Select feature using an expression"
 6. Put this formula in textbox pop_max > 10000 and sov0name = 'India'
 7. Click on select and close.
+```
 
 ## Part 2:
+```
 1.Layer- Add layer - Add raster layer - select image with end (mea300.tif extension file)- .tif layer is displayed on screen
 2. Select raster-Extraction-Select Clipper
 3.Check input file whether that is the same filename as you selected prior
@@ -113,8 +130,10 @@
 19.Give your filename in OUTPUT file using SELECT
 20.Check your mode should be Hillshade and the click OK OK OK and close
 21.You will get your output in sometime
+```
 
 # Practical 6: Working with Projections and WMS Data
+```
 1. Extract- Practical 5 data
 2. Layer → Add Layer → Add Vector Layer
 3. From the Practical 5 dataset → Select the file "ne_10m_admin_0_countries" and Open
@@ -124,8 +143,10 @@
 7. Layer → Add Layer → Add Raster Layer
 8. In Practical 5 folder → In the search bar search for *tif and select “MiniScale_(standard)_R17” click on Open and OK
 9. In Project → Project Properties → CRS → In Filter give the value 102008 and below From Coordinate Reference System → Select “North_America_Albers_Equal_Area_Conic” and click on OK
+```
 
 # Practical 6: Working with Projections and WMS Data
+```
 1. Extract- Practical 5 data
 2. Layer → Add Layer → Add Vector Layer
 3. From the Practical 5 dataset → Select the file "ne_10m_admin_0_countries" and Open
@@ -135,8 +156,10 @@
 7. Layer → Add Layer → Add Raster Layer
 8. In Practical 5 folder → In the search bar search for *tif and select “MiniScale_(standard)_R17” click on Open and OK
 9. In Project → Project Properties → CRS → In Filter give the value 102008 and below From Coordinate Reference System → Select “North_America_Albers_Equal_Area_Conic” and click on OK
+```
 
 ## Part 2 Digitizing Map Data
+```
 1. Layers – Add Layers – Add Raster Layer – Select Christchurch Topo50 map.tif – ok
 2. Right click on Christchurch Topo50 map – Select Properties – Pyramids – Select All pyramids – Click on build Pyramids – Apply – ok
 3. Setting – Option – Digitizing – Default snap mode – To vertex and segment
@@ -149,10 +172,12 @@
 10. Layer – Create Layer – New SpatialLite Layer – Type Point – Specify CRS as 4167 – Layer name Shop – Attribute name – ShopName – Add to attribute list – Ok
 11. Toggle Editig – add point feature – plot point on map – Right click to save
 12. Right click on ShopName – Properties – Change Color – Change Symbol – OK
+```
 
 # Practical 7: Working with Cartography
 
 ## Part 1
+```
 1. Layer -- add layer-- Add vector layer -- browse -- select "tl_2013_06_tract.zip" open -- open
 2. Layer -- add layer -- add delimited text Layer -- select "ca_tracts_pop.csv" open
 3. In file format select Csv (or custom delimiters will also work)
@@ -164,8 +189,10 @@
 9. Column -- select "ca_tracts_pop_D001" from drop down
 10. Classes -- 6 and color ramp -- spectral
 11. Mode Equal Interval then click on classify – apply --ok
+```
 
 ## Part 2
+```
 1. Layer → Add Layer → Add Vector Layer
 2. From the extracted data → Select the file "nybb.shp" and click on open
 3. Layer → Add Layer → Add Vector Layer
@@ -176,3 +203,4 @@
 8. In Output table → click on "Keep all records" click on OK - YES - OK
 9. In the layers → Right click on the join file created in the output → Open Attribute Table (Check if the table is there or not and then close it)
 10. Click on "Identify Features" symbol (from the above icons in the ribbon) and click on the map then the results will be seen in the "Identify results" to the left side of the screen
+```
