@@ -145,19 +145,6 @@
 9. In Project → Project Properties → CRS → In Filter give the value 102008 and below From Coordinate Reference System → Select “North_America_Albers_Equal_Area_Conic” and click on OK
 ```
 
-# Practical 6: Working with Projections and WMS Data
-```
-1. Extract- Practical 5 data
-2. Layer → Add Layer → Add Vector Layer
-3. From the Practical 5 dataset → Select the file "ne_10m_admin_0_countries" and Open
-4. Layer → Save As → Click on Browse and give it any names and Save
-5. In CRS → Click on Symbol (Select CRS) (to the right side of the dropdown)
-6. In Filter → give the value as 102008 and below From Coordinate Reference System → Select “North_America_Albers_Equal_Area_Conic” and click on OK-OK
-7. Layer → Add Layer → Add Raster Layer
-8. In Practical 5 folder → In the search bar search for *tif and select “MiniScale_(standard)_R17” click on Open and OK
-9. In Project → Project Properties → CRS → In Filter give the value 102008 and below From Coordinate Reference System → Select “North_America_Albers_Equal_Area_Conic” and click on OK
-```
-
 ## Part 2 Digitizing Map Data
 ```
 1. Layers – Add Layers – Add Raster Layer – Select Christchurch Topo50 map.tif – ok
